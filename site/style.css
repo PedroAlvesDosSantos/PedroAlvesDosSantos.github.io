@@ -1,0 +1,89 @@
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilos para a navegação */
+nav {
+    background-color: #f1f1f1;
+    padding: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    border-radius: 20px;
+}/* Estilo para diminuir o tamanho da imagem */
+img {
+    width: 50%; /* Defina a porcentagem desejada para ajustar o tamanho */
+  }
+  
+nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos para as seções */
+section {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Mover a imagem para a direita */
+img.move-right {
+    margin-left: 10px;
+}
+
+/* Mover a imagem para a esquerda */
+img.move-left {
+    margin-right: 70px;
+}
+/* Estilo para diminuir o tamanho da imagem */
+img {
+    width: 50%; /* Defina a porcentagem desejada para ajustar o tamanho */
+  }
+  body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400; 
+}
